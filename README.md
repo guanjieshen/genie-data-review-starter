@@ -1,5 +1,8 @@
 # Genie Data Review Starter
 
+> ⚠️ **Archived**
+> This repository is no longer maintained. Use the [Databricks GitHub Actions template](https://github.com/guanjieshen/databricks-github-actions-template) to start a project, and the [demo in the action repository](https://github.com/guanjieshen/genie_code_code_review_gh_action/tree/main/examples/demo) to see Genie Data Review on a pull request with planted issues.
+
 ![Template](https://img.shields.io/badge/GitHub-template-blue)
 ![Action](https://img.shields.io/badge/action-genie__code__code__review__gh__action-orange)
 
