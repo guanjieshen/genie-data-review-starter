@@ -1,0 +1,24 @@
+bundle:
+  name: genie_review_demo
+
+include:
+  - resources/*.yml
+
+variables:
+  catalog:
+    description: Catalog for the demo tables
+  schema:
+    description: Schema for the demo tables
+  warehouse_id:
+    description: SQL warehouse for the SQL task
+
+targets:
+  staging:
+    default: true
+    # A shared root path lets the reviewer identity find the deployed job (needed for deploy.drift).
+    workspace:
+      root_path: /Workspace/Shared/.bundle/${bundle.name}/${bundle.target}
+    variables:
+      catalog: main            # change me
+      schema: genie_review_demo # change me
+      warehouse_id: ""         # change me
